@@ -1,2 +1,15 @@
-1d7f425 (HEAD -> main) 日本語訳を追記
-122c85e hello_world.txtを追加
+************** samurai_kadai % mkdir git_tutorial
+************** samurai_kadai % cd git_tutorial
+************** git_tutorial % git init
+Initialized empty Git repository in /Users/k/work/samurai_kadai/git_tutorial/.git/
+************** git_tutorial % touch sample.txt
+************** git_tutorial % git add sample.txt              
+************** git_tutorial % git commit -m "sample.txtを追加"
+[main (root-commit) c3bcfb3] sample.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 sample.txt
+************** git_tutorial % git status                    
+On branch main
+nothing to commit, working tree clean
+************** git_tutorial % git log --oneline
+c3bcfb3 (HEAD -> main) sample.txtを追加
