@@ -1,15 +1,17 @@
-************** samurai_kadai % mkdir git_tutorial
-************** samurai_kadai % cd git_tutorial
-************** git_tutorial % git init
-Initialized empty Git repository in /Users/k/work/samurai_kadai/git_tutorial/.git/
-************** git_tutorial % touch sample.txt
-************** git_tutorial % git add sample.txt              
-************** git_tutorial % git commit -m "sample.txtを追加"
-[main (root-commit) c3bcfb3] sample.txtを追加
+************** samurai_kadai % mkdir git_challenge
+************** samurai_kadai % cd git_challenge
+************** git_challenge % git init
+Initialized empty Git repository in /Users/k/work/samurai_kadai/git_challenge/.git/
+************** git_challenge % touch hello_world.txt
+************** git_challenge % git add hello_world.txt
+k@konoMac-mini git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) 93ce8f8] hello_world.txtを追加
  1 file changed, 1 insertion(+)
- create mode 100644 sample.txt
-************** git_tutorial % git status                    
-On branch main
-nothing to commit, working tree clean
-************** git_tutorial % git log --oneline
-c3bcfb3 (HEAD -> main) sample.txtを追加
+ create mode 100644 hello_world.txt
+************** git_challenge % git add hello_world.txt              
+************** git_challenge % git commit -m "日本語訳を追記"
+[main a6d7784] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+************** git_challenge % git log --oneline
+a6d7784 (HEAD -> main) 日本語訳を追記
+93ce8f8 hello_world.txtを追加
